@@ -54,11 +54,10 @@ public class Marin {
 	}
 	
 	
-	
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(age, nom, prenom);
+		return Objects.hash(age, nom, prenom, salaire);
 	}
 
 	@Override
@@ -70,7 +69,8 @@ public class Marin {
 		if (getClass() != obj.getClass())
 			return false;
 		Marin other = (Marin) obj;
-		return age == other.age && Objects.equals(nom, other.nom) && Objects.equals(prenom, other.prenom);
+		return age == other.age && Objects.equals(nom, other.nom) && Objects.equals(prenom, other.prenom)
+				&& Double.doubleToLongBits(salaire) == Double.doubleToLongBits(other.salaire);
 	}
 
 	@Override
