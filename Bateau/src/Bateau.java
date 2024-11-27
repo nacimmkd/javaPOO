@@ -37,12 +37,12 @@ public class Bateau {
 	}
 	
 	// A completer
-	/*
+	
 	@Override
 	public String toString() {
 		return "Bateau [nom:" + nom + ",tonnage:"+tonnage + "," 
 				+ equipage.getNomCommandant() + ",membres de l'equipage:"
-				+ ;
+				+ equipage.getEquipage() + "]";
 	}
-	*/
+	
 }

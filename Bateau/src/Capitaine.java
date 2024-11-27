@@ -9,6 +9,7 @@ public class Capitaine extends Marin {
 		
 	}
 	
+	
 	public Grade getGrade() {
 		return grade;
 	}

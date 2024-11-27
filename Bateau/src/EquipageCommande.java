@@ -7,6 +7,9 @@ public class EquipageCommande extends Equipage{
 		this.commandant = capitaine;
 	}
 	
+	public String getNomCommandant() {
+		return commandant.getNom();
+	}
 	
 	
 	public String toString() {
