@@ -11,7 +11,6 @@ public class EquipageMain {
 		
 		Equipage equipe = new Equipage();
 		
-		
 		System.out.println(m1.getPrenom() +" est ajouté a l'equipage : " +equipe.addMarin(m1));
 		System.out.println(m2.getPrenom() +" est ajouté a l'equipage : " +equipe.addMarin(m2));
 		System.out.println(m3.getPrenom() +" est ajouté a l'equipage : " +equipe.addMarin(m3));
@@ -38,7 +37,7 @@ public class EquipageMain {
 		System.out.println("Nombre d'equipage : " + equipe.getNombreMarins());
 		System.out.println(equipe.toString());
 		
-		System.out.println("Le salaire de marin le mieux payé : "+equipe.getMaxSalaire());
+		System.out.println("Le salaire de marin le mieux paye : "+equipe.getMaxSalaire());
 		System.out.println("La moyenne des salaires : "+equipe.getMoyenneSalaire());
 		
 		//Marin m5 = equipe.getMarinByName("Louiba");
@@ -52,7 +51,7 @@ public class EquipageMain {
 		equipe1.addMarin(m1);
 		System.out.println(equipe.toString());
 		System.out.println(equipe1.toString());
-		System.out.println("Les 2 équipes possedes les memes marins : "+equipe.equals(equipe1));
+		System.out.println("Les 2 Equipes possedes les memes marins : "+equipe.equals(equipe1));
 	}
 
 }
