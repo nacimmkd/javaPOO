@@ -8,7 +8,7 @@ public class EquipageCommande extends Equipage{
 	}
 	
 	public String toString() {
-		String s = "EquipageCommandé{" ;
+		String s = "EquipageCommand{" ;
 		s += super.toString() + "}";
 		return s;
 	}
