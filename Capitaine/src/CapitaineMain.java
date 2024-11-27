@@ -10,5 +10,8 @@ public class CapitaineMain {
 		equipe.addMarin(m1);
 		
 		System.out.println(equipe.toString());
+		
+	
+		
 	}
 }
