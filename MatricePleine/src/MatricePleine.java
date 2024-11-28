@@ -108,7 +108,28 @@ public class MatricePleine {
 		}
 		return mat;
 	}
+	
+	
+	public int[][] mlatriceCreuse() {
+	    int nbNonNuls = getNbNonNuls();
 
+	    int[][] matriceCreuse = new int[nbNonNuls][3];
+
+	    int index = 0;
+	    for (int i = 0; i < hauteur; i++) {
+	        for (int j = 0; j < largeur; j++) {
+	            if (mat[i][j] != 0) {
+	                matriceCreuse[index][0] = i + 1;  // Ligne
+	                matriceCreuse[index][1] = j + 1;  // Colonne
+	                matriceCreuse[index][2] = mat[i][j]; 
+	                index++;
+	            }
+	        }
+	    }
+	    
+	    return matriceCreuse;
+	}
+	
 		
 	
 }
