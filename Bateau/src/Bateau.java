@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-public class Bateau {
+public abstract class Bateau {
 	private String nom;
 	private int tonnage;
 	private EquipageCommande equipage;
