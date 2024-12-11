@@ -1,8 +1,0 @@
-import java.util.TreeSet;
-
-public class Restaurant extends ComparateurTable{
-	private TreeSet<Table> tables;
-	public Restaurant() {
-		tables = new TreeSet<Table>(ComparateurTable);
-	}
-}
